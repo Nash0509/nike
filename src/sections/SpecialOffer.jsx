@@ -29,11 +29,11 @@ const SpecialOffer = () => {
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional.
         </p>
-        <div className='mt-11 flex flex-wrap gap-4'>
-          <Button label='Shop now' iconURL={arrowRight} />
+        <div className='mt-11 flex flex-wrap gap-4 text-black'>
+          <Button label='Shop now' iconURL={arrowRight} backgroundColor='bg-black text-white'/>
           <Button
             label='Learn more'
-            backgroundColor='bg-white'
+            backgroundColor='bg-black text-white'
             borderColor='border-slate-gray'
             textColor='text-slate-gray'
           />
